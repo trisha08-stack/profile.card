@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile card</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <article data-testid="test-profile-card">
+
+  <figure>
+    <img
+      src="https://i.postimg.cc/mkhH75J7/IMG-20251128-140306-494.jpg"
+      alt="Portrait of Ibru Trisha"
+      data-testid="test-user-avatar"
+    />
+  </figure>
+
+  <header>
+    <h2 data-testid="test-user-name">Ibru Trisha</h2>
+  </header>
+
+  <p data-testid="test-user-bio">
+    Student and aspiring frontend developer focused on building clean, accessible, and responsive web interfaces while continuously improving my HTML, CSS, and JavaScript skills.
+  </p>
+
+  <p data-testid="test-user-time" aria-live="polite"></p>
+
+  <nav data-testid="test-user-social-links">
+    <a href="https://www.instagram.com/trisha_html?igsh=cWtxdDFwdWozMDcw" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-instagram">Instagram</a>
+    <a href="https://github.com/trisha08-stack" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+    
+    <a href="https://www.linkedin.com/in/trisha-elohor-270440302" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin" >Linkedin</a>
+  </nav>
+
+  <section>
+      <h3>Hobbies</h3>
+    <ul data-testid="test-user-hobbies">
+      <li>Coding</li>
+      <li>Reading</li>
+      <li>Writing</li>
+    </ul>
+  </section>
+
+  <section>
+      <h3>Dislikes</h3>
+    <ul data-testid="test-user-dislikes">
+      <li>Slow Internet</li>
+      <li>Procrastination</li>
+      <li>Bugs</li>
+    </ul>
+  </section>
+
+</article>
+
+<script src="index.js"></script>
+</body>
+</html>
